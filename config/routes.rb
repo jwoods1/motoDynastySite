@@ -1,4 +1,5 @@
 MotoDynasty::Application.routes.draw do
+  root 'users#index'
   get "races/race"
   get "admin/index"
   resources :users

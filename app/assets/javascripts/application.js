@@ -17,6 +17,10 @@
 //= require twitter/bootstrap
 
 $(document).ready(function(){
+	$('#media').carousel({
+    pause: true,
+    interval: false,
+  });
 	(function ($) {
     $.fn.extend({
         tableAddCounter: function (options) {
